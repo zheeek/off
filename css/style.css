@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#f1f9f9;
+}
+.PriceCalculator{
+    margin-top: 3px !important;
+    margin-right: 0px !important;
+
+    margin-left: 5px !important;
+}
+.form-signin {
+    max-width: 500px;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+	//margin-top:90px;
+    background-color: #fff;
+	
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+    text-align: right;
+    direction: rtl;
+}
+.form-calc {
+    max-width: 1200;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+    //margin-top:90px;
+    text-align: right;
+    direction: rtl;
+    background-color: #fff;
+    
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#990000;
+    font-weight:lighter;
+}
+.form-cart {
+    max-width: 400px;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+    //margin-top:90px;
+    text-align: right;
+    direction: rtl;
+    background-color: #fff;
+    
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#000;
+    font-weight:lighter;
+}
+.form-calc input[type="text"] {
+    width: 50% ;
+    display: inline !important;
+}
+select {
+    width: 30% !important;
+    display: inline !important;
+
+}
+.info td{
+    font-size: 1.2em;
+    color: #999;
+padding-top: 20px;
+    padding-left: 150px;
+}
+label {
+    direction: ltr;
+    position: relative;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+li input {
+margin-left: 50px !important;
+}
+.off{
+    margin-top: 50px;
+    width: 60%;
+    color: #777;
+    font-size: 1.2em;
+}
+.form-calc button {
+float: left;
+margin-top: -53px;
+margin-left: 90px;
+height: 40px !important;
+}
+.form-signin .form-signin-heading{
+    color:#00A2D1;
+}
+#pay{
+    float: left;
+    margin-left: 200px;
+    color: #989898 ;
+    font-size: 1.5em;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    font-size: 16px;
+    height: auto;
+    padding: 7px 9px;
+}
+
+.signin-form
+{
+	//border:solid red 1px;
+	margin-top:80px;
+}
+.navbar-brand{
+	font-family:"Lucida Handwriting";
+}
+#btn-submit{
+	height:45px;
+}
